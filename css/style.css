@@ -1,0 +1,666 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    src: url(../fonts/Gilroy-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
+body
+{
+    background-color: #F7EFE1;
+    
+    margin-bottom: 30px;
+}
+header
+{
+    padding:30px 0;
+}
+.main
+{
+    background-color: #DF6651;
+    border-radius: 14px;
+    padding: 58px 50px;
+}
+.heading
+{
+    font-family: "Gilroy-Bold";
+    font-size: 40px;
+    color: #091026;
+}
+.sub-heading
+{
+    font-family: "Gilroy-SemiBold";
+    font-size: 30px;
+    color: #F7EFE1;
+    margin-top: 10px;
+}
+.body-text
+{
+    font-family: "Gilroy-Medium";
+    font-size: 24px;
+    color: #F7EFE1;
+    margin-top: 30px;
+}
+
+
+/* Financial Advice */
+
+
+.financial-advice
+{
+    margin-top: 30px;
+}
+.financial-advice .main
+{
+    background-color: #B9405B;
+}
+.financial-advice .heading
+{
+    color: #F7EFE1;
+}
+
+
+/* mighty-work */
+
+
+.mighty-work{
+    margin-top: 30px;
+}
+.mighty-work .main{
+    background-color: #51A380;
+}
+.mighty-work .heading{
+    
+    color: #B9405B;
+}
+.mighty-work .sub-heading{
+    font-size: 30px;
+}
+.mighty-work .body-text{
+    color: #FFFFFF;
+}
+
+
+
+/* Financial Research */
+
+
+.financial-research{
+    margin-top: 30px;
+   
+}
+
+.text-finnacial-research{
+    background-color: #002856;
+    border-radius: 14px;
+    padding: 50px 58px;
+   
+}
+.text-finnacial-research .heading{
+    color: #DF6651;
+}
+.text-finnacial-research .sub-heading{
+    
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.text-finnacial-research .body-text{
+    
+    font-size: 24px;
+}
+.financial-research img{
+    border-radius: 14px;
+    border: 1px solid #002856;
+}
+
+
+/* Investing Insights */
+
+.item
+{
+    margin: 5px;
+}
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+    height: inherit !important;
+}
+
+.investing-insights{
+    padding-bottom: 30px;
+}
+
+ .inves-box{
+    background-color:#DEDBD3;
+    padding: 34px 25.5px;
+    border-radius: 14px;
+    margin-top: 30px;
+    height: 100%;
+  
+    
+}
+.bg1
+{
+    background-image: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.bg2
+{
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.bg3
+{
+    background-image: url(../img/bg3.png);
+    background-repeat: no-repeat;
+    background-position:top left;
+}
+.inves-box h3{
+    font-size: 20px;
+    color: #B9405B;
+    
+}
+.inves-box span{
+    font-size: 25.5px;
+    font-family: "Gilroy-Bold";
+    color: #002856;
+}
+.inves-box h2{
+    color: #002856;
+    opacity: 50%;
+    font-size: 18px;
+}
+.inves-box p{
+    font-size: 17px;
+    color: #DF6651;
+}
+
+
+/* solution */
+
+
+.solution{
+    margin-top: 30px;
+}
+
+.solution-box{
+    border: 2px solid #51A380;
+    border-radius: 14px;
+    padding: 50px 58px;
+}
+.solution-box h2{
+    color: #0A7A69;
+    
+}
+.solution-box h3{
+    color: #0A7A69;
+    
+}
+.solution-box p{
+    color: #002856;
+    
+    padding-top: 30px;
+}
+.main-box .img{
+   background-color: #0A7A69;
+    border-radius: 14px;
+}
+
+
+/* career */
+
+
+.career{
+    margin-top: 30px;
+}
+.text-career{
+    background-color:#091026;
+    border-radius: 14px;
+    padding: 50px 58px;
+}
+.text-career h2{
+    color: #F7EFE1;
+    font-family: "Gilroy-Bold";
+    font-size: 40px;
+}
+.text-career h3{
+    font-family: "Gilroy-Medium";
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.text-career h3 span{
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    color: #DF6651;
+}
+.text-career p{
+    font-family: "Gilroy-Medium";
+    color: #FFFFFF;
+}
+.career img{
+    background-color: #F7EFE1; 
+    border: 2px solid #091026;
+    border-radius: 14px;
+}
+
+
+/* search bar */
+
+
+.search-bar{   
+    margin-top: 30px;
+}
+.search-bar .main{
+    padding: 58px 50px;
+}
+.search-bar h2{
+    font-family: "Gilroy-Bold";
+    font-size: 40px;
+    color: #F7EFE1;
+}
+
+.search-bar p{
+    font-family: "Gilroy-Medium";
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+/* financial journey */
+
+
+.financial-journey{
+    margin-top: 30px;
+}
+.text-financial-journey{
+    background-color: #0A7A69;
+    border-radius: 14px;
+    padding: 58px 50px;
+}
+.main-financial-journey h2{
+    font-family: "Gilroy-Bold";
+    font-size: 35px;
+    color: #F7EFE1;
+}
+.main-financial-journey p{
+    font-family: "Gilroy-Medium";
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.financial-journey img{
+    border: 1px solid #0A7A69;
+    border-radius: 14px;
+    padding: 58px 50px;
+}
+
+
+/* our-partner */
+
+.main-our-partner{
+    background-color: #B9405B;
+    border-radius: 14px;
+    margin-top: 30px;
+    padding: 61px 50px;
+}
+.main-our-partner h2{
+    font-family: "Gilroy-Bold";
+    font-size: 35px;
+    text-align: start;
+    margin-bottom: 54px;
+    color: #F7EFE1;
+}
+.main-our-partner p{
+    margin-left: 30%;
+
+}
+.main-our-partner .btn1{
+    font-family: "Gilroy-SemiBold";
+    font-size: 16px;
+    border-radius: 35px;
+    border: 2px solid #F7EFE1;;
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: #B9405B;
+    color: #F7EFE1;
+    margin-left: 30px;
+    justify-content: end;
+}
+
+/* articles footer*/
+
+.articles{
+    background-color: #002856;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 42px 0; 
+}
+.main-footer-link
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+}
+.footer-menu
+{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 21px;
+   
+}
+.footer-menu  li
+{
+    margin-top: 15px;
+}
+.footer-menu a
+{
+    font-family: "Gilroy-Medium";
+    font-size: 20px;
+    color: #8093AA; 
+    text-decoration: none;
+
+}
+.social
+{
+    list-style: none;
+    padding-left: 0;
+    text-align: end;
+}
+.social li
+{
+    display: inline-block;
+}
+.social img
+{
+    width: 62px;
+}
+.social-div
+{
+    justify-content: end;
+}
+.text-f{
+    text-align: center;
+}
+
+/* Mighty Fix */
+
+.hero-fix .main{
+    background-color: #0A7A69;
+
+}
+.hero-fix .main.text-main{
+    text-align: start;
+}
+.hero-fix .main .heading{
+    font-family: "Gilroy-Bold";
+    font-size: 40px;
+    color: #091026;
+    
+    
+}
+.hero-fix .main .body-text{
+    font-family: "Gilroy-Medium";
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.blog-card .main{
+    margin-top: 30px;
+    background-color: #091026;
+}
+
+.blog-card .heading{
+    color: #DF6651;
+    
+}
+.blog-card input{
+    background-color: #393D4B;
+    border-radius: 30px;
+}
+.main .card {
+    background-color: #393D4B;
+    margin-top: 50px;
+}
+
+.card-title{
+    color: #DF6651;
+    font-size: 16px;
+}
+.card-text{
+    color: #F7EFE1;
+    font-size: 20px;
+}
+.card-body p,a{
+    color: #6A6D78;
+    font-size: 16px;
+}
+.card-body a{
+    text-decoration: none;
+}
+
+.card-body .btn-read{
+    color: #51A380;
+    
+}
+
+.main .btn-1{
+    border-radius: 30px;
+    padding: 10px 70px;
+    margin-top: 58px;
+    border: none;
+}
+.main .text-end{
+    margin-top: 30px;
+}
+.main .text-end a{
+    color: #DF6651;
+    text-decoration: none;
+}
+.arrows
+{
+    position: relative;
+    top: 300px;
+    z-index: 1;
+}
+.blog-slider
+{
+    padding-left:50px;
+    z-index: 0;
+}
+.search
+{
+    padding: 10px 10px;
+    border: 0;
+    padding-left: 40px;
+    width: 300px;
+    color: #ffffff;
+}
+.iconsearch
+{
+    position: absolute;
+    left: 12px;
+    top:13px
+}
+::placeholder {
+    color: #ffffff;
+  }
+  
+  /* videos-card */
+.videos-card .main
+{
+    margin-top: 30px;
+    background-color: #DF6651;
+}
+.videos-card .heading
+{
+     color: #091026;
+ }
+ .videos-card input
+{
+    background-color: #F7EFE1;
+    border-radius: 30px;
+    opacity: 20%;
+}
+
+.main .v-card {
+    background-color:  #E4816E;
+    margin-top: 50px;
+    
+}
+.v-card-body {
+    color: #002856;
+    font-size: 20px;
+    margin: 20px 20px;
+}
+.v-card-body p{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+.v-card-body a {
+    text-decoration: none;
+    color: #002856;
+    
+}
+.v-card-body .btn-primary{
+    color: #002856;
+    opacity: 50%;
+}
+.main .text-end a{
+    color: #002856;
+    text-decoration: none;
+}
+.videos-card .main .btn-1{
+    color: #DF6651;
+    margin-top: 58px;
+    border: none;
+}
+/* podcasts-card */
+.podcasts-card .main{
+    margin-top: 30px;
+    background-color: #B9405B
+}
+
+.podcasts-card .heading
+{
+     color: #F7EFE1
+ }
+ .podcasts-card input
+{
+    background-color: #C56376;
+    border-radius: 30px;
+    opacity: 20%;
+}
+.main .p-card {
+    background-color:  #C56376;
+    margin-top: 50px;
+}
+.p-card-body {
+    color: #002856;
+    font-size: 20px;
+    margin: 20px 20px;
+}
+.p-card-body p{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+.p-card-body a {
+    text-decoration: none;
+    color: #002856;
+    
+}
+@media only screen and (max-width:426px){
+    header
+    {
+        padding: 42px 0;
+    }
+    .main
+    {
+        padding: 30px;
+    }
+    .heading
+    {
+        font-size: 24px;
+    }
+    .sub-heading
+    {
+        font-size: 20px;
+    }
+    .body-text
+    {
+        font-size: 18px;
+    }
+    .solution-box{
+        background-color: #0A7A69;
+         border-radius: 14px;
+        padding: 30px;
+     }
+     .solution-box h2{
+        color: #F7EFE1
+     }
+     .solution-box h3{
+        color: #F7EFE1
+     }
+     .solution-box p{
+        color: #FFFFFF
+     }
+     .text-career h2{
+        font-size: 24px;
+     }
+     .text-career h3,span,p{
+        font-size: 18px;
+     }
+     .career img{
+        background-color: #091026;
+        
+        border-radius: 14px;
+    }
+    .search-bar h2{
+        font-size: 24px;
+    }
+    .search-bar p{
+        font-size: 18px;
+    }
+    .main-financial-journey h2{
+        font-size: 24px;
+    }
+    .main-financial-journey p{
+        font-size: 18px;
+    }
+    .text-career,.search-bar .main,.text-financial-journey,.main-our-partner,.text-finnacial-research
+    {
+        padding: 30px;
+    }
+    .main-our-partner p
+    {
+        margin: 0;
+        text-align: center;
+    }
+    .main-our-partner p img
+    {
+        margin-top: 10px;
+    }
+    .legal-div,.social-div
+    {
+        margin-top: 40px;
+    }
+    .social 
+    {
+        text-align: start;
+    }
+    .social-div
+    {
+        justify-content: start;
+    }
+}
