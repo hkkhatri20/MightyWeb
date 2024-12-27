@@ -75,7 +75,8 @@ header
     background-color: #51A380;
 }
 .mighty-work .heading{
-    
+    font-family: "Gilroy-Bold";
+    font-size: 40px;
     color: #B9405B;
 }
 .mighty-work .sub-heading{
@@ -87,7 +88,7 @@ header
 
 
 
-/* Financial Research */
+/*           Financial Research             */
 
 
 .financial-research{
@@ -116,6 +117,7 @@ header
 .financial-research img{
     border-radius: 14px;
     border: 1px solid #002856;
+    padding: 50px 58px;
 }
 
 
@@ -192,6 +194,7 @@ header
 
 .solution{
     margin-top: 30px;
+    
 }
 
 .solution-box{
@@ -214,7 +217,8 @@ header
 }
 .main-box .img{
    background-color: #0A7A69;
-    border-radius: 14px;
+   border-radius: 14px;
+    
 }
 
 
@@ -252,6 +256,7 @@ header
     background-color: #F7EFE1; 
     border: 2px solid #091026;
     border-radius: 14px;
+    padding: 50px 58px;
 }
 
 
@@ -262,15 +267,15 @@ header
     margin-top: 30px;
 }
 .search-bar .main{
-    padding: 58px 50px;
+    padding: 64px 60px;
 }
-.search-bar h2{
+.search-bar .heading{
     font-family: "Gilroy-Bold";
     font-size: 40px;
     color: #F7EFE1;
 }
 
-.search-bar p{
+.search-bar .body-text{
     font-family: "Gilroy-Medium";
     font-size: 24px;
     color: #FFFFFF;
@@ -282,6 +287,7 @@ header
 
 .financial-journey{
     margin-top: 30px;
+    
 }
 .text-financial-journey{
     background-color: #0A7A69;
@@ -301,7 +307,7 @@ header
 .financial-journey img{
     border: 1px solid #0A7A69;
     border-radius: 14px;
-    padding: 58px 50px;
+    padding: 70px 113px;
 }
 
 
@@ -321,9 +327,10 @@ header
     color: #F7EFE1;
 }
 .main-our-partner p{
-    margin-left: 30%;
-
+   margin: 54px 282px;
+   
 }
+
 .main-our-partner .btn1{
     font-family: "Gilroy-SemiBold";
     font-size: 16px;
@@ -333,10 +340,12 @@ header
     padding: 20px 40px;
     background-color: #B9405B;
     color: #F7EFE1;
-    margin-left: 30px;
+    margin-left: 10px;
     justify-content: end;
 }
-
+ .main-our-partner p .arnlogo{
+    margin-right: 30px;
+}
 /* articles footer*/
 
 .articles{
@@ -380,6 +389,7 @@ header
 .social li
 {
     display: inline-block;
+    padding-right: 10px;
 }
 .social img
 {
@@ -452,20 +462,20 @@ header
     color: #51A380;
     
 }
-
+.main .text-end {
+    margin-top: 30px;
+    color: #DF6651;
+    text-decoration: none;
+    
+}
 .main .btn-1{
     border-radius: 30px;
     padding: 10px 70px;
     margin-top: 58px;
     border: none;
 }
-.main .text-end{
-    margin-top: 30px;
-}
-.main .text-end a{
-    color: #DF6651;
-    text-decoration: none;
-}
+
+
 .arrows
 {
     position: relative;
@@ -515,23 +525,32 @@ header
 .main .v-card {
     background-color:  #E4816E;
     margin-top: 50px;
+    border-radius: 15px;
     
 }
-.v-card-body {
+.v-card-body h2 {
+    font-family: "Gilroy-Bold";
     color: #002856;
     font-size: 20px;
     margin: 20px 20px;
+    margin-right: 64px;
 }
-.v-card-body p{
+.v-card-body p {
+    font-family: "Gilroy-Medium";
     color: #FFFFFF;
     font-size: 16px;
-    margin-bottom: 64px;
+    padding: 15px 20px;
 }
 .v-card-body a {
     text-decoration: none;
     color: #002856;
-    
+    padding: 20px;
+    margin-top: 64px;
 }
+.v-card-body .mb{
+    padding: 20px;
+}
+
 .v-card-body .btn-primary{
     color: #002856;
     opacity: 50%;
@@ -539,47 +558,110 @@ header
 .main .text-end a{
     color: #002856;
     text-decoration: none;
+    margin-top: 30px;
+    margin-right: 50px;
+    font-family: "Gilroy-Bold";
 }
 .videos-card .main .btn-1{
     color: #DF6651;
-    margin-top: 58px;
+    margin: 58px;
     border: none;
 }
-/* podcasts-card */
-.podcasts-card .main{
-    margin-top: 30px;
-    background-color: #B9405B
-}
 
+
+.arrows
+{
+    position: relative;
+    top: 300px;
+    z-index: 1;
+}
+.blog-slider
+{
+    padding-left:50px;
+    z-index: 0;
+}
+.search
+{
+    padding: 10px 10px;
+    border: 0;
+    padding-left: 40px;
+    width: 300px;
+    color: #ffffff;
+}
+.iconsearch
+{
+    position: absolute;
+    left: 12px;
+    top:13px
+}
+::placeholder {
+    color: #ffffff;
+  }
+/* podcasts-card */
+.podcasts-card .main
+{
+    margin-top: 30px;
+    background-color: #DF6651;
+}
 .podcasts-card .heading
 {
-     color: #F7EFE1
+     color: #091026;
  }
  .podcasts-card input
 {
-    background-color: #C56376;
+    background-color: #F7EFE1;
     border-radius: 30px;
     opacity: 20%;
 }
+
 .main .p-card {
-    background-color:  #C56376;
+    background-color:  #E4816E;
     margin-top: 50px;
+    border-radius: 15px;
+    
 }
-.p-card-body {
+.p-card-body h2 {
+    font-family: "Gilroy-Bold";
     color: #002856;
     font-size: 20px;
     margin: 20px 20px;
+    margin-right: 64px;
 }
-.p-card-body p{
+.p-card-body p {
+    font-family: "Gilroy-Medium";
     color: #FFFFFF;
     font-size: 16px;
-    margin-bottom: 64px;
+    padding: 15px 20px;
 }
 .p-card-body a {
     text-decoration: none;
     color: #002856;
-    
+    padding: 20px;
+    margin-top: 64px;
 }
+.p-card-body .mb{
+    padding: 20px;
+}
+
+.p-card-body .btn-primary{
+    color: #002856;
+    opacity: 50%;
+}
+.main .text-end a{
+    color: #002856;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-right: 50px;
+    font-family: "Gilroy-Bold";
+}
+.podcasts-card .main .btn-1{
+    color: #DF6651;
+    margin: 58px;
+    border: none;
+}
+
+
+
 @media only screen and (max-width:426px){
     header
     {
@@ -601,12 +683,16 @@ header
     {
         font-size: 18px;
     }
-    .solution-box{
+   
+     .solution-box
+    {
+        border: none;
         background-color: #0A7A69;
-         border-radius: 14px;
         padding: 30px;
-     }
+    }
+    
      .solution-box h2{
+        font-size: 24px;
         color: #F7EFE1
      }
      .solution-box h3{

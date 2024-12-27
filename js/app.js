@@ -39,8 +39,8 @@ $(document).ready(function(){
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: '60px',
-        prevArrow: $('.prev'),
-        nextArrow: $('.next'),
+        prevArrow: $('.left'),
+        nextArrow: $('.right'),
         responsive: [
           {
             breakpoint: 900,
@@ -57,8 +57,8 @@ $(document).ready(function(){
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: '60px',
-        prevArrow: $('.prev'),
-        nextArrow: $('.next'),
+        prevArrow: $('.prev-ll'),
+        nextArrow: $('. next-rr'),
         responsive: [
           {
             breakpoint: 900,
